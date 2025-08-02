@@ -9,7 +9,7 @@ echo ""
 export RISH_APPLICATION_ID=com.termux
 
 # Check if Lucky Patcher is installed
-LP_PACKAGE="com.dimonvideo.luckypatcher"
+LP_PACKAGE="ru.nywyvchi.payioqgun"
 if ! ./rish -c "pm list packages | grep -q $LP_PACKAGE" 2>/dev/null; then
     echo "Lucky Patcher not found. Please install it first."
     echo "Official site: https://www.luckypatchers.com"
